@@ -1,0 +1,5 @@
+# Ignore large CSV datasets
+data/True.csv
+data/Fake.csv
+data/cleaned_news.csv
+
