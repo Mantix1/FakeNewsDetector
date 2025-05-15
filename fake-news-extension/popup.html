@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fake News Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      min-width: 240px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    #checkButton {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #checkButton:hover {
+      background-color: #0056b3;
+    }
+
+    #result {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h3>🧠 Fake News Check</h3>
+  <button id="checkButton">Check This Page</button>
+  <p id="result">Click to start analyzing</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
